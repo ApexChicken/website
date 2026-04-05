@@ -10,17 +10,22 @@ gray: #9a9590
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
-            <title>Wyatt Cowan</title>
+            <h1><span class="highlight">w</span>yatt c<span class="highlight">o</span><span class="highlight">w</span>an</h1>
         </head>
         <body>
-            <h1>wyatt cowan</h1>
+            <div class="banner">
+                <p>Under Construction — WIP as of <span id="date"></span></p>
+</div>
             <p>"who are you?"</p>
             <br>
             <p>"i'm a nerd."</p>
+            <script>
+                document.getElementById("date").textContent = new Date().toLocaleDateString();
+            </script>
         </body>
 </html>
 
 
 <footer>
-    <p>be a nerd. its cool. Contact me at wyattcowan [dot] work [at] protom [dot] me</p>
+    <p>be a nerd. its cool. Contact me at wyattcowan [dot] work [at] proton [dot] me</p>
 </footer>
