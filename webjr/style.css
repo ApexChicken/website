@@ -1,4 +1,8 @@
 body {
+    background-image: 
+    linear-gradient(rgba(154, 149, 144, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(154, 149, 144, 0.15) 1px, transparent 1px);
+    background-size: 40px 40px;
     background-color: #F2F0EF;
     color: #4682B4;
     font-family: Georgia, 'Times New Roman', Times, serif;
