@@ -28,3 +28,23 @@ footer {
     width: 100%;
     padding: 20px;
 }
+
+
+.banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4682B4;
+    padding: 10px;
+}
+
+.banner p {
+    color: #F2F0EF;
+    font-size: 14px;
+    margin: 0;
+}
+.highlight {
+    color: #F2F0EF;
+    background-color: #4682B4;
+    padding: 1px 1px;
+}
